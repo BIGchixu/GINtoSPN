@@ -1,0 +1,15 @@
+Package: GINtoSPN
+Type: Package
+Title: Automated construction of Petri Nets from Global Integrative
+        Network
+Depends: R (>= 4.3.1)
+Imports: igraph,foreach,doParallel
+Version: 1.0
+Date: 2024-07-16
+Author: Xu Chi
+Maintainer: Xu Chi <chix@big.ac.cn>
+Description: GINtoSPN extracts topology information from GIN based on user-defined gene list, and convert the sub-graphs into Petri nets in mEPN style. The output GraphML file can be loaded into yEd for modifications on the representation or directly loaded into Biolayer Express3D for Signaling Petri Net simulation.
+License: GPL-3.0
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-07-17 03:34:13 UTC; chix
