@@ -13,4 +13,11 @@ install.packages("igraph")
 install.packages("foreach")
 install.packages("doParallel")
 ```
-The package also requires several precompiled files, including GIN, gene regulatory network, and a coding gene list. These files can be found in the "data" folder.
+The package also requires several precompiled files, including GIN, gene regulatory network, and a coding gene list. These files can be found in the "data" folder. Download the files and load into memory:
+```
+load("pathTo/cdglist.rda")
+load("pathTo/graph.grn.rda")
+load("pathTo/graph.rda")
+```
+## A simple tutorial/example
+Let's start from building a Petri net model for neurofibroma. 
