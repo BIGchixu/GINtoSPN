@@ -1,0 +1,16 @@
+id 	 name	Frequency
+HP:0000707 	 Abnormality of the nervous system	VeryFrequent
+HP:0009592 	 Astrocytoma	VeryFrequent
+HP:0000823 	 Delayed puberty	VeryFrequent
+HP:0007440 	 Generalized hyperpigmentation	VeryFrequent
+HP:0001256 	" Intellectual disability, mild"	VeryFrequent
+HP:0009737 	 Lisch nodules	VeryFrequent
+HP:0012733 	 Macule	VeryFrequent
+HP:0000995 	 Melanocytic nevus	VeryFrequent
+HP:0002858 	 Meningioma	VeryFrequent
+HP:0007565 	 Multiple cafe-au-lait spots	VeryFrequent
+HP:0001012 	 Multiple lipomas	VeryFrequent
+HP:0008069 	 Neoplasm of the skin	VeryFrequent
+HP:0009732 	 Plexiform neurofibroma	VeryFrequent
+HP:0001328 	 Specific learning disability	VeryFrequent
+HP:0001482 	 Subcutaneous nodule	VeryFrequent
