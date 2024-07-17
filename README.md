@@ -55,4 +55,16 @@ plot(g.pw, layout = layout.pw,
 ```
 The network should look similar to this:<br/>
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/aa4614ac-04e3-413c-a81e-374fb63966c3">
+<br/>
+Now we convert the sub-graph to an mEPN-styled GraphML file:
+```
+myresult<-convert_graph_to_graphml(g.pw,cdglist)
+outtext<-paste(unlist(myresult$graphml),collapse = "\n")
+write(outtext,file = "WorkingDir/NF_hpo.graphml")
+```
+The file "NF_hpo.graphml" can be loaded into yEd editor for representation. To calculate a proper layout in yEd, choose "Layout"->"Hierarchical", for "Orientation", select "Top to Bottom", then you may get a graph similar to this:<br/>
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/d9aa046e-7de6-4622-8462-9bbe8e405b4f">
+<br/>
+## A more sophisticated example: build marked Petri nets for Signaling Petri Net simulations
+Coming soon...
 
