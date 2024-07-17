@@ -53,6 +53,6 @@ layout.pw<-layout_with_fr(g.pw)
 plot(g.pw, layout = layout.pw,
      vertex.label.cex = 0.5,edge.arrow.size = 0.5)
 ```
-The network should look similar to this:
+The network should look similar to this:<br/>
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/aa4614ac-04e3-413c-a81e-374fb63966c3">
 
